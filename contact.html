@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <div class="subscribe">
+            <form>
+                <input type="email" placeholder="enter email">
+                <button type="submit">Aboneaza-te</button>
+            </form>  
+        </div>
+    </header>
+
+
+   <div class="menu" onclick="openAcasa()">Acasa</div>
+   <div class="menu" onclick="openTehnologie()">Tehnologie</div> 
+   <div class="menu" onclick="openClima()">Clima</div>
+   <div class="menu" onclick="openSanatate()">Sanatate</div>
+   <div class="menu" onclick="openTechReviews()">Tech Reviews</div>
+   <div class="menu" onclick="openContact()">Contact</div>
+   
+   <div class="container">
+    <form>
+        <label>First Name</label>
+        <input type="text" place holder="Your name...">
+
+        <label>Last Name</label>
+        <input type="text" place holder="Your last name...">
+
+        <label>Country</label>
+        <select>
+            <option>Romania</option>
+            <option>Italia</option>
+            <option>Grecia</option>
+        </select>
+
+        <label>Subject</label>
+        <textarea placeholder="Write  something..." sttyle="height:200px"></textarea>
+
+        <input type="submit" value="submit">
+    </form>
+   </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
